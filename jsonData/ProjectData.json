@@ -1,66 +1,86 @@
 [
   {
     "id": 1,
-    "title": "Modern StackOverFlow",
-    "description": "Clone Stackoverflow using Next js , MongoDB , Clerk , Tailwind Css",
-    "image_url": "/stack.png",
-    "link": "https://nextoverflow.vercel.app",
+    "title": "NudgeQuest",
+    "description": "NudgeQuest is an AI-powered mock job interview platform that helps users prepare for real interviews...",
+    "image_url": "/nudgequest.png",
+    "link": "https://nudge-quest.vercel.app/",
+    "github": "https://github.com/reallywasi/NudgeQuest",
+    "demo": "https://nudge-quest.vercel.app/",
     "technologies": [
       "Next.js",
-      "MongoDB",
-      "Clerk",
-      "Tailwind Css"
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Personal Portfolio Website",
-    "description": "A personal portfolio website built with HTML, CSS, JS, and Next.js.",
-    "image_url": "/portfolio.png",
-    "link": "https://portfoliosp.vercel.app",
-    "technologies": [
-      "Next.js",
-      "React js",
-      "Tailwind Css"
+      "PostgreSQL",
+      "Tailwind CSS",
+      "React.js",
+      "Typescript"
     ]
   },
   {
     "id": 2,
-    "title": "Faculty Feedback System",
-    "description": "A faculty feedback system built with HTML, CSS, JS, Next.js, Prisma, Next-auth, and MongoDB.",
-    "image_url": "/feedback.png",
-    "link": "https://Feedback-systems.vercel.app",
-    "technologies": [
-      "React js",
-      "Next.js",
-      "Prisma",
-      "Next-auth",
-      "MongoDB"
-    ]
+    "title": "PromptScribe",
+    "description": "An AI content generator made using Next.js and Google Gemini API...",
+    "image_url": "/",
+    "link": "https://github.com/reallywasi/PromptScribe",
+    "github": "https://github.com/reallywasi/PromptScribe",
+    "demo": "https://github.com/reallywasi/PromptScribe",
+    "technologies": ["Next.js", "React.js", "ShadCN", "Drizzle"]
   },
   {
     "id": 3,
-    "title": "Todo App ",
-    "description": "A Todo App built with Next.js",
-    "image_url": "/todoapp.png",
+    "title": "House Rental Application",
+    "description": "A full stack house rental application with industrylevel authentication and redux state management...",
+    "image_url": "/",
     "link": "#",
+    "github": "#",
+    "demo": "#",
     "technologies": [
-      "Next.js",
-      "Prisma",
-      "Next-auth",
-      "MongoDB"
+      "ReactJS",
+      "MongoDB",
+      "ExpressJS",
+      "Redux",
+      "NodeJS",
+      "JavaScript"
     ]
   },
+
   {
     "id": 4,
-    "title": "World Rank ",
-    "description": "A World Rank App built with Next.js",
-    "image_url": "/worldrank.png",
-    "link": "https://world-rank-c.vercel.app",
-    "technologies": [
-      "Next.js",
-      "React js",
-      "Rest Api"
-    ]
+    "title": "News-Web-App",
+    "description": "Built using HTML, CSS, and JavaScript, this web app fetches real-time news updates...",
+    "image_url": "/",
+    "link": "",
+    "github": "https://github.com/reallywasi/News-Web-App",
+    "demo": "https://github.com/reallywasi/News-Web-App",
+    "technologies": ["CSS", "HTML5", "JavaScript"]
+  },
+  {
+    "id": 5,
+    "title": "Black Jack",
+    "description": "A web-based Blackjack game using HTML, CSS, and JavaScript...",
+    "image_url": "/",
+    "link": "#",
+    "github": "#",
+    "demo": "#",
+    "technologies": ["CSS", "HTML5", "JavaScript"]
+  },
+  {
+    "id": 6,
+    "title": "Infinite-Jokes-Generator",
+    "description": "Experience laughter with my responsive random joke generator...",
+    "image_url": "/",
+    "link": "https://reallywasi.github.io/Infinite-Jokes-Generator/",
+    "github": "https://github.com/reallywasi/Infinite-Jokes-Generator",
+    "demo": "https://reallywasi.github.io/Infinite-Jokes-Generator/",
+    "technologies": ["CSS", "HTML5", "JavaScript"]
+  },
+  {
+    "id": 7,
+    "title": "The-K-Quiz",
+    "description": "A web app made to carry out K-drama quizzes...",
+    "image_url": "/",
+    "link": "#",
+    "github": "#",
+    "demo": "#",
+    "technologies": ["HTML", "CSS", "JavaScript"]
   }
 ]

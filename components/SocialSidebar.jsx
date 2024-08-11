@@ -22,7 +22,7 @@ const SocialSidebar = () => {
           <ul className="flex flex-col items-center justify-center w-6 gap-5 space-y-1">
             <Link
               className="text-gray-400 hover:text-[#f72b1c] w-7"
-              href="https://github.com/Swapnil1530" 
+              href="https://github.com/reallywasi" 
               target="_blank"
               
               title="Github"
@@ -34,7 +34,7 @@ const SocialSidebar = () => {
             </Link>
             <Link
               className="text-gray-400 hover:text-[#f72b1c] w-7"
-              href="https://github.com/Swapnil1530" 
+              href="https://github.com/reallwyasi" 
               target="_blank"
               
               title="Stackoverflow"
@@ -44,7 +44,7 @@ const SocialSidebar = () => {
             </Link>
             <Link
               className="text-gray-400 hover:text-[#f72b1c] w-7"
-              href="https://www.linkedin.com/in/patel-swapnil-334317202/"
+              href="https://www.linkedin.com/in/m-wasi-4a5825242/"
               target="_blank"
               
               title="Linkdin"
@@ -57,7 +57,7 @@ const SocialSidebar = () => {
             </Link>
             <Link
               className="w-7 text-gray-400 hover:text-[#f72b1c]"
-              href="https://twitter.com/Swapnil1530"
+              href="https://twitter.com/reallywasi"
               target="_blank"
               
               title="Twitter"
@@ -68,19 +68,7 @@ const SocialSidebar = () => {
                 className="transition duration-300  transform hover:-translate-y-1"
               />
             </Link>
-            <Link
-              className="w-7 text-gray-400 hover:text-[#f72b1c]"
-              href="https://www.instagram.com/swapnil_patel_10/"
-              target="_blank"
-              
-              title="Instagram"
-             
-            >
-              <FontAwesomeIcon
-                icon={faInstagram}
-                className="transition duration-300 transform hover:-translate-y-1"
-              />
-            </Link>
+        
           </ul>
           <div className="h-full w-[2px] bg-[#f72b1c] mt-5" />
         </aside>
@@ -88,11 +76,11 @@ const SocialSidebar = () => {
         <aside className="react-reveal flex flex-col justify-end items-center">
           <div className=" h-52 w-[2px] bg-[#f72b1c] mb-5" />
           <Link
-            href="mailto:patelswapnil438@gmail.com"
+            href="mailto:reallywasi@gmail.com"
             className="text-gray-400 transition  duration-300 hover:text-[#f72b1c] tracking-widest  "
             style={{ writingMode: "tb-rl" }}
           >
-            patelswapnil438@gmail.com
+            reallwyasi@gmail.com
           </Link>
 
           <div className="h-28 w-[2px] bg-[#f72b1c] mt-5" />

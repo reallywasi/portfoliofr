@@ -1,186 +1,197 @@
-import DesignLine from "@/components/DesignLine";
-import Link from "next/link";
+import React from 'react';
+import { FaLinkedin, FaGithub, FaLink } from 'react-icons/fa';
+import { SiCoursera, SiHackerrank } from 'react-icons/si';
 
 const Resume = () => {
   return (
-    <>
-      <section className="py-10 lg:py-16 px-3 true">
-        <h2 className="text-xl lg:text-2xl font-bold mb-0 text-center text-white">
-          <span className="text-[#f72b1c]"> </span>
+    <section className="py-10 lg:py-16 px-3 border-b border-opacity-50 border-gray-800">
+      <div className="text-center mb-8">
+        <h2 className="text-2xl font-bold text-white">
+          Resume of <span className="text-[#f72b1c]">Mohammad Wasi</span>
         </h2>
-        <div className="mt-10 lg:mt-20 bg-gray-700 p-7 lg:p-10 bg-opacity-30 rounded-lg lg:rounded-2xl text-center">
-          <h1 className="text-4xl lg:text-6xl font-bold text-white">
-            <span className="text-[#f72b1c]">R</span>esume
-          </h1>
-          <p className="text-xs lg:text-sm text-gray-400 max-w-sm tracking-widest mt-3 lg:mt-5 mx-auto">
-            Explore my background and achievements by reading about my
-            experiences and education.
-          </p>
+        <p className="text-gray-400 mt-2">Last Updated on 8th August 2024</p>
+        <p className="text-gray-400 mt-2">reallywasi@gmail.com | +91 7900225025</p>
+      </div>
+
+      <div className="mb-10">
+        <h3 className="text-xl font-semibold text-white mb-4">Links</h3>
+        <div className="flex justify-center gap-4">
+          <a
+            href="https://www.linkedin.com/in/m-wasi-4a5825242/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center p-4 bg-[#0077b5] rounded-lg text-white hover:bg-[#005582]"
+          >
+            <FaLinkedin className="mr-2 text-lg" />
+            LinkedIn: m-wasi
+          </a>
+          <a
+            href="https://github.com/reallywasi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center p-4 bg-[#333] rounded-lg text-white hover:bg-[#222]"
+          >
+            <FaGithub className="mr-2 text-lg" />
+            GitHub: reallywasi
+          </a>
+          <a
+            href="https://reallywasi.github.io"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center p-4 bg-[#f72b1c] rounded-lg text-white hover:bg-[#d12817]"
+          >
+            <FaLink className="mr-2 text-lg" />
+            Portfolio: reallywasi.github.io
+          </a>
         </div>
-      </section>
-      <section className="py-10 lg:py-16 px-3 border-b border-gray-800 border-opacity-50 ">
-        <h2 className="text-xl lg:text-2xl font-bold mb-0 text-center text-white">
-          Work<span className="text-[#f72b1c]"> Experience</span>
-        </h2>
-        <DesignLine />
-        <div className="py-7 px-5 border-l border-[#f72b1c]">
-          <div className="relative">
-            <span className="text-xs inline-block py-[3px] px-5 rounded-full border border-[#f72b1c] text-white">
-              Present
-            </span>
-            <span className="absolute w-3 h-3 bg-[#f72b1c] rounded-full left-[-26.5px] bottom-1/2 transform translate-y-1/2"></span>
+      </div>
+
+      {/* <div className="mb-10">
+  <h3 className="text-xl font-semibold text-white mb-4">Education</h3>
+  <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+    <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+      <h4 className="text-lg font-semibold text-white">UPES</h4>
+      <p className="text-gray-400">B.Tech in Computer Science</p>
+      <p className="text-gray-400">Oct 2022 - May 2026 | CGPA: 8.93 (4th sem)</p>
+      <p className="text-gray-400">Continuous meritorious scholarship holder since the first semester.</p>
+    </div>
+    <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+      <h4 className="text-lg font-semibold text-white">FREECODECAMP</h4>
+      <p className="text-gray-400">Front End Development</p>
+      <p className="text-gray-400">May 2023 - Aug 2023</p>
+    </div>
+    <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+      <h4 className="text-lg font-semibold text-white">MOUNT FORT ACADEMY</h4>
+      <p className="text-gray-400">Graduated 2021 | Dehradun, India</p>
+      <p className="text-gray-400">School Captain (2020-2021) - Led the school council and conducted various events like sports day and annual functions.</p>
+      <p className="text-gray-400">Head of the Literary Club - Organized debates, SUPW workshops, and more.</p>
+    </div>
+  </div>
+</div> */}
+<div className="mb-10">
+  <h3 className="text-xl font-semibold text-white mb-4">Education</h3>
+  <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+    <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+      <h4 className="text-lg font-semibold text-white">UPES</h4>
+      <p className="text-gray-400">B.Tech in Computer Science</p>
+      <p className="text-gray-400">Oct 2022 - May 2026 | CGPA: 8.93 (4th sem)</p>
+      <ul className="text-gray-400 list-disc list-inside mt-2">
+        <li>Continuous meritorious scholarship holder since the first semester.</li>
+        <li>Involved in various academic and extracurricular activities.</li>
+      </ul>
+    </div>
+    <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+      <h4 className="text-lg font-semibold text-white">FREECODECAMP</h4>
+      <p className="text-gray-400">Front End Development</p>
+      <p className="text-gray-400">May 2023 - Aug 2023</p>
+    </div>
+    <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+      <h4 className="text-lg font-semibold text-white">MOUNT FORT ACADEMY</h4>
+      <p className="text-gray-400">Graduated 2021 | Dehradun, India</p>
+      <ul className="text-gray-400 list-disc list-inside mt-2">
+        <li>School Captain (2020-2021) - Led the school council and conducted various events like sports day and annual functions.</li>
+        <li>Head of the Literary Club - Organized debates, SUPW workshops, and more.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+      <div className="mb-10">
+        <h3 className="text-xl font-semibold text-white mb-4">Experience</h3>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+            <h4 className="text-lg font-semibold text-white">OCTANET SERVICES PVT LTD.</h4>
+            <p className="text-gray-400">Web Development Intern</p>
+            <p className="text-gray-400">Jan 2024 - Present | Remote</p>
+            <p className="text-gray-400">Working on MERN Stack for web development.</p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-5 lg:gap-x-12">
-            <div className="my-2 col-span-2">
-              <h3 className="text-base md:text-lg font-semibold">
-                <Link
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group text-white"
-                >
-                  Full Stack Web Development{" "}
-                </Link>
-              </h3>
-              <h4 className="text-xs lg:text-sm text-[#f72b1c]">
-                Web Stack Acedemy - Internship
-              </h4>
-            </div>
-            <div className="text-xs md:text-base text-gray-400 col-span-3">
-              Engaged in an ongoing dynamic MERN stack internship, contributing
-              to end-to-end web development projects. Proficiently working with
-              React, integrating Express.js and Node.js for back-end, and honing
-              skills in MongoDB database management. Gaining valuable experience
-              in building responsive and interactive web applications.
-            </div>
+          <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+            <h4 className="text-lg font-semibold text-white">UPES ACM STUDENT CHAPTER</h4>
+            <p className="text-gray-400">Technical Core Committee Member</p>
+            <p className="text-gray-400">Aug 2023 - Present | Hybrid, Dehradun, India</p>
+            <p className="text-gray-400">Working on front-end development and organizing technical events.</p>
           </div>
-        </div>
-        <div className="py-7 px-5 border-l border-[#f72b1c]">
-          <div className="relative">
-            <span className="text-xs inline-block py-[3px] px-5 rounded-full border border-[#f72b1c] text-white">
-              July - Aug 2023
-            </span>
-            <span className="absolute w-3 h-3 bg-[#f72b1c] rounded-full left-[-26.5px] bottom-1/2 transform translate-y-1/2"></span>
+          <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+            <h4 className="text-lg font-semibold text-white">GITHUB</h4>
+            <p className="text-gray-400">Global Campus Student</p>
+            <p className="text-gray-400">Aug 2023 - Present | Remote</p>
+            <p className="text-gray-400">Contributing to open source projects through GitHub.</p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-5 lg:gap-x-12">
-            <div className="my-2 col-span-2">
-              <h3 className="text-base md:text-lg font-semibold">
-                <Link
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group text-white"
-                >
-                  Web Development{" "}
-                </Link>
-              </h3>
-              <h4 className="text-xs lg:text-sm text-[#f72b1c]">
-                Prodigy Infotech - Internship
-              </h4>
-            </div>
-            <div className="text-xs md:text-base text-gray-400 col-span-3">
-              I have recently wrapped up a hands-on web development internship,
-              specializing in HTML, CSS, and JavaScript. Throughout the
-              internship, I adeptly translated design concepts into interactive
-              web interfaces. This experience further enriched my skills in
-              front-end development, equipping me to create engaging and
-              user-friendly web experiences.
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="py-10 lg:py-16 px-3 border-b border-gray-800 border-opacity-50 ">
-        <h2 className="text-xl lg:text-2xl font-bold mb-0 text-center text-white">
-          Educational<span className="text-[#f72b1c]"> Level</span>
-        </h2>
-        <DesignLine />
-        <div className="py-7 px-5 border-l border-[#f72b1c]">
-          <div className="relative">
-            <span className="text-xs inline-block py-[3px] px-5 rounded-full border border-[#f72b1c] text-white">
-              2020 - Present
-            </span>
-            <span className="absolute w-3 h-3 bg-[#f72b1c] rounded-full left-[-26.5px] bottom-1/2 transform translate-y-1/2"></span>
-          </div>
-          <div className="grid grid-cols-1 lg:grid-cols-5 lg:gap-x-12">
-            <div className="my-2 col-span-2">
-              <h3 className="text-base md:text-lg font-semibold">
-                <Link
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group text-white"
-                >
-                  Sankalchand Patel Univercity{" "}
-                </Link>
-              </h3>
-              <h4 className="text-xs lg:text-sm text-[#f72b1c]">College</h4>
-            </div>
-            <div className="text-xs md:text-base text-gray-400 col-span-3">
-              I am currently pursuing a degree in Computer Science Engineering
-              at Sankalchand Patel College of Engineering Visnagar,Gujarat.
-            </div>
-          </div>
-        </div>
-        <div className="py-7 px-5 border-l border-[#f72b1c]">
-          <div className="relative">
-            <span className="text-xs inline-block py-[3px] px-5 rounded-full border border-[#f72b1c] text-white">
-              2019 - 2020
-            </span>
-            <span className="absolute w-3 h-3 bg-[#f72b1c] rounded-full left-[-26.5px] bottom-1/2 transform translate-y-1/2"></span>
-          </div>
-          <div className="grid grid-cols-1 lg:grid-cols-5 lg:gap-x-12">
-            <div className="my-2 col-span-2">
-              <h3 className="text-base md:text-lg font-semibold">
-                <Link
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group text-white"
-                >
-                  Glorious Public School{" "}
-                </Link>
-              </h3>
-              <h4 className="text-xs lg:text-sm text-[#f72b1c]">
-                Higher Secondary School
-              </h4>
-            </div>
-            <div className="text-xs md:text-base text-gray-400 col-span-3">
-              I successfully completed my 12th class from Gujarat Secondary and
-              Higher Secondary Education Board.
-            </div>
+          <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+            <h4 className="text-lg font-semibold text-white">OASIS INFOBYTE</h4>
+            <p className="text-gray-400">Web Development Intern</p>
+            <p className="text-gray-400">Dec 2023 - Jan 2024 | Remote</p>
+            <p className="text-gray-400">Working on web development using the MERN Stack.</p>
           </div>
         </div>
-        <div className="py-7 px-5 border-l border-[#f72b1c]">
-          <div className="relative">
-            <span className="text-xs inline-block py-[3px] px-5 rounded-full border border-[#f72b1c] text-white">
-              2017 - 2018
-            </span>
-            <span className="absolute w-3 h-3 bg-[#f72b1c] rounded-full left-[-26.5px] bottom-1/2 transform translate-y-1/2"></span>
+      </div>
+
+      <div className="mb-10">
+        <h3 className="text-xl font-semibold text-white mb-4">Projects</h3>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+            <h4 className="text-lg font-semibold text-white">NudgeQuest</h4>
+            <p className="text-gray-400">An AI-powered mock interview platform that helps users prepare for real interviews. Built with Next.js, PostgreSQL, and ShadCN.</p>
+            <a href="https://github.com/reallywasi/NudgeQuest" target="_blank" rel="noopener noreferrer" className="text-[#61DBFB] hover:underline">Repository</a>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-5 lg:gap-x-12">
-            <div className="my-2 col-span-2">
-              <h3 className="text-base md:text-lg font-semibold">
-                <Link
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group text-white"
-                >
-                  Affinity Education Foundation{" "}
-                </Link>
-              </h3>
-              <h4 className="text-xs lg:text-sm text-[#f72b1c]">
-                Secondary School
-              </h4>
-            </div>
-            <div className="text-xs md:text-base text-gray-400 col-span-3">
-              I successfully completed my 10th class from Gujarat Secondary and
-              Higher Secondary Education Board.
-            </div>
+          <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+            <h4 className="text-lg font-semibold text-white">House Rental Application</h4>
+            <p className="text-gray-400">A full-stack property renting app featuring seamless user login, property listing, and online payment capabilities. Built with MERN Stack and Redux.</p>
+            <a href="https://github.com/reallywasi/House_Rental_Application" target="_blank" rel="noopener noreferrer" className="text-[#61DBFB] hover:underline">Repository</a>
+          </div>
+          <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+            <h4 className="text-lg font-semibold text-white">Prompt Scribe</h4>
+            <p className="text-gray-400">An AI content generation app that produces various content with a single click. Built with NextJS.</p>
+            <a href="https://github.com/reallywasi/PromptScribe" target="_blank" rel="noopener noreferrer" className="text-[#61DBFB] hover:underline">Repository</a>
+          </div>
+          <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+            <h4 className="text-lg font-semibold text-white">News Web App</h4>
+            <p className="text-gray-400">A web app built using HTML, CSS, and JavaScript to fetch real-time news via APIs. Highly responsive and user-friendly.</p>
+            <a href="https://github.com/reallywasi/News-Web-App" target="_blank" rel="noopener noreferrer" className="text-[#61DBFB] hover:underline">Repository</a>
+          </div>
+          <div className="p-6 border rounded-lg border-gray-800 hover:border-[#f72b1c] hover:bg-[#f72b1c] hover:text-white transition-all">
+            <h4 className="text-lg font-semibold text-white">Tic Tac Toe Game</h4>
+            <p className="text-gray-400">A web-based Tic Tac Toe game created using React. Classic game with a sleek interface and smooth interactions.</p>
+            <a href="https://github.com/reallywasi/React_Tic_Tac_Toe" target="_blank" rel="noopener noreferrer" className="text-[#61DBFB] hover:underline">Repository</a>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+
+      <div className="mb-10">
+        <h3 className="text-xl font-semibold text-white mb-4">Certifications</h3>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="p-6 border rounded-lg border-gray-800 hover:border-[#007bff] hover:bg-[#007bff] hover:text-white transition-all">
+            <h4 className="text-lg font-semibold text-white">AWS Cloud Practitioner Essentials</h4>
+            <p className="text-gray-400">Coursera</p>
+            <p className="text-gray-400">Issued Feb 2024</p>
+            <a href="https://www.coursera.org/learn/aws-cloud-practitioner-essentials" target="_blank" rel="noopener noreferrer" className="text-[#007bff] hover:underline">View Credential</a>
+          </div>
+          <div className="p-6 border rounded-lg border-gray-800 hover:border-[#28a745] hover:bg-[#28a745] hover:text-white transition-all">
+            <h4 className="text-lg font-semibold text-white">CSS Developer</h4>
+            <p className="text-gray-400">HackerRank</p>
+            <p className="text-gray-400">Issued Jun 2023</p>
+            <a href="https://www.hackerrank.com/certificates/AD7D37A6FB60" target="_blank" rel="noopener noreferrer" className="text-[#28a745] hover:underline">View Credential</a>
+          </div>
+          <div className="p-6 border rounded-lg border-gray-800 hover:border-[#28a745] hover:bg-[#28a745] hover:text-white transition-all">
+            <h4 className="text-lg font-semibold text-white">Problem Solving (Basic)</h4>
+            <p className="text-gray-400">HackerRank</p>
+            <p className="text-gray-400">Issued Jun 2023</p>
+            <a href="https://www.hackerrank.com/certificates/0BB1896EF66F" target="_blank" rel="noopener noreferrer" className="text-[#28a745] hover:underline">View Credential</a>
+          </div>
+        </div>
+      </div>
+
+      <div className="text-center mt-10">
+        <blockquote className="text-gray-400 italic">
+          "The best way to predict the future is to invent it." – Alan Kay
+        </blockquote>
+      </div>
+    </section>
   );
 };
+
 export default Resume;
+
+
+
