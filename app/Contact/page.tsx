@@ -42,11 +42,12 @@ const ContactData = [
     link: "mailto:reallywasi@gmail.com",
   },
   {
-    id: 6,
+    id: 6, // Update the ID if needed
     Title: "Location",
     icon: <FaLocationDot />,
     AccountName: "Dehradun, Uttarakhand",
-    link: "https://goo.gl/maps/HDktK3izEcA4YdSx6",
+    // Update the link to the correct Google Maps URL for Dehradun
+    link: "https://www.google.com/maps/place/Dehradun,+Uttarakhand,+India",
   },
   {
     id: 7,
