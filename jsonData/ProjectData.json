@@ -30,9 +30,9 @@
     "title": "House Rental Application",
     "description": "A full stack house rental application with industrylevel authentication and redux state management...",
     "image_url": "/",
-    "link": "#",
-    "github": "#",
-    "demo": "#",
+    "link": "https://github.com/reallywasi/House_Rental_Application.git",
+    "github": "https://github.com/reallywasi/House_Rental_Application.git",
+    "demo": "https://github.com/reallywasi/House_Rental_Application.git",
     "technologies": [
       "ReactJS",
       "MongoDB",
@@ -48,7 +48,7 @@
     "title": "News-Web-App",
     "description": "Built using HTML, CSS, and JavaScript, this web app fetches real-time news updates...",
     "image_url": "/",
-    "link": "",
+    "link": "https://github.com/reallywasi/News-Web-App.git",
     "github": "https://github.com/reallywasi/News-Web-App",
     "demo": "https://github.com/reallywasi/News-Web-App",
     "technologies": ["CSS", "HTML5", "JavaScript"]
@@ -58,9 +58,9 @@
     "title": "Black Jack",
     "description": "A web-based Blackjack game using HTML, CSS, and JavaScript...",
     "image_url": "/",
-    "link": "#",
-    "github": "#",
-    "demo": "#",
+    "link": "https://github.com/reallywasi/BJ-game-Black-Jack-.git",
+    "github": "https://github.com/reallywasi/BJ-game-Black-Jack-.git",
+    "demo": "https://github.com/reallywasi/BJ-game-Black-Jack-.git",
     "technologies": ["CSS", "HTML5", "JavaScript"]
   },
   {
@@ -78,9 +78,9 @@
     "title": "The-K-Quiz",
     "description": "A web app made to carry out K-drama quizzes...",
     "image_url": "/",
-    "link": "#",
-    "github": "#",
-    "demo": "#",
+    "link": "https://github.com/reallywasi/The-K-Quiz-.git",
+    "github": "https://github.com/reallywasi/The-K-Quiz-.git",
+    "demo": "https://github.com/reallywasi/The-K-Quiz-.git",
     "technologies": ["HTML", "CSS", "JavaScript"]
   }
 ]
