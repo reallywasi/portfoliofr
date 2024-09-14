@@ -1,14 +1,8 @@
-
 import ProjectData from "../../jsonData/ProjectData.json";
 import Project from "../../components/Project";
 import DesignLine from "@/components/DesignLine";
 
 const ProjectPage = () => {
-  // Check if ProjectData has a valid structure
-  if (!Array.isArray(ProjectData) || !ProjectData.every((item) => item.id)) {
-    console.error("Invalid Project Data format");
-    return <p>Error: Unable to load project data.</p>;
-  }
 
   return (
     <section className="py-10 lg:py-16 px-3 border-b border-gray-800 border-opacity-50">
