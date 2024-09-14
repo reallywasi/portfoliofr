@@ -3,6 +3,7 @@ import Project from "../../components/Project";
 import DesignLine from "@/components/DesignLine";
 
 const ProjectPage = () => {
+
   return (
     <section className="py-10 lg:py-16 px-3 border-b border-gray-800 border-opacity-50">
       <div className="mt-10 lg:mt-20 bg-gray-700 p-7 lg:p-10 bg-opacity-30 rounded-lg lg:rounded-2xl text-center">
@@ -10,7 +11,8 @@ const ProjectPage = () => {
           <span className="text-[#f72b1c]">P</span>rojects
         </h1>
         <p className="text-xs lg:text-sm text-gray-400 max-w-sm tracking-widest mt-3 lg:mt-5 mx-auto">
-        I have developed a diverse range of projects utilizing Next.js, highlighting my skills in this powerful framework.        </p>
+          I have developed a diverse range of projects utilizing Next.js, highlighting my skills in this powerful framework.
+        </p>
       </div>
       <div className="py-10 lg:py-16 px-3">
         <h2 className="text-xl lg:text-2xl font-bold mb-0 text-center text-white">
