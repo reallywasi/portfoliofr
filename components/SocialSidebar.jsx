@@ -32,16 +32,7 @@ const SocialSidebar = () => {
                 className="transition duration-300 transform hover:-translate-y-1"
               />
             </Link>
-            <Link
-              className="text-gray-400 hover:text-[#f72b1c] w-7"
-              href="https://github.com/reallwyasi" 
-              target="_blank"
-              
-              title="Stackoverflow"
-            >
-             
-              <FaStackOverflow className="transition duration-300 transform hover:-translate-y-1 w-[30px] h-[30px]"/>
-            </Link>
+            
             <Link
               className="text-gray-400 hover:text-[#f72b1c] w-7"
               href="https://www.linkedin.com/in/m-wasi-4a5825242/"
